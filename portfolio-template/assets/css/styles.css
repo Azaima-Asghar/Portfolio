@@ -114,12 +114,14 @@ header.masthead h2 {
 .portfolio .portfolio-item .portfolio-item-caption {
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
-    opacity: 0;
+    opacity: 100;
+    height: 500px;
     background-color: rgba(48, 51, 107, 0.7);
 }
 
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-    opacity: 100;
+    opacity: 70;
 }
 
 .portfolio
